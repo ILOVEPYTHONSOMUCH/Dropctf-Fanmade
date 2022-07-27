@@ -1,0 +1,7 @@
+ชื่อแลป : the clown
+ระดะบความยาก : ง่าย
+1. ใช้ dirb สแกน จะเจอโฟลเดอร์ webadmin เข้าไปจะเจอหน้า login </br>
+2. นํา username ที่ได้จากส่วนของการ contact มา และใช้ wfuzz bruteforce โดยใช้ brup จับคําขอ และ wordlist จาก dropctf</br>
+3.จะเข้าสู่ระบบได้ พบว่า มี hash นําไปถอดรหัส จะได้รหัสผ่านของผู้ดูแลระบบ ไปล็อกอิน</br>
+4.เจอไฟล์ลับ ของ ผู้ดูแลระบบ นําไป crack ด้วย john the ripper</br>
+5.steghide หาข้อความลับ และ ได้ flag ละ Easyyyyyyyyyy
