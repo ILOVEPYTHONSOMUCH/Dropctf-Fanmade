@@ -1,5 +1,5 @@
 แลป : Tesla
-ความยาก :  normal
+ความยาก : easy
 concept:
 แฮก elon musk
 1. ค้นหาหน้าแรกเจอ บัญชี ชื่อ mark ใน commment หรือค้นหา จนเจอไฟล์ลับ ที่เก็บ user:pass โดย gobuster wordlists คือ directory-list-1.0.txt จาก dirbuster
@@ -7,5 +7,5 @@ concept:
 3. เข้าสู่ระบบ เจอตัวเลือก กดเข้าไป สามารถ ทํา lfi ได้ แนะนํา ทําผ่าน php://filter base64 จะเจอ password ของelon
 4. เข้าสู่ระบบ ของ elon อัพโหลดไฟล์ backdoor (ลอง แก้ชนิดไฟล์) ยืดเครื่องได้แล้ว 
 5. ยกระดับสิทธิ์ (อยู่ในช่วงดําเนินการ)
-login เป็น elon ลองหาโปรแกรท suid เจอ rootme.c เป็น source-code เรียกใช้ โปรแกรม ps 
+login เป็น elon ลองหาโปรแกรม suid เจอ tesla.c เป็น source-code เรียกใช้ โปรแกรม tesla.py ที่สามารถแก้ไขได้ 
 จะได้ root ไปที่ /root จะได้แฟลก !!!!!!
